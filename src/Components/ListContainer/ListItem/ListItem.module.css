@@ -1,0 +1,45 @@
+.ListItem {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #22223b34;
+  border-radius: 5px;
+  background: #fafafa;
+  box-shadow: 2px 2px #ebebeb;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.ListItem:hover {
+  transition: all 0.2s ease;
+  padding: 11px;
+  border: 1px solid #f2e9e4;
+  border-radius: 5px;
+  background-color: #f2e9e4;
+}
+
+.ListItemImg {
+  padding: 10px;
+}
+
+.ListItemImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.ListItemHeader {
+  padding: 10px;
+}
+.ListItemHeader a {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 700;
+  color: #22223bb6;
+}
+.ListItemHeader a:hover {
+  color: #22223b;
+}
+.ListItemHeader p {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #22223b;
+}

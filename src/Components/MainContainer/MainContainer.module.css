@@ -1,0 +1,10 @@
+.MainContainer {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  grid-template-columns: 50% 50%;
+}

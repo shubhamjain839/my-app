@@ -1,0 +1,26 @@
+.Title {
+  color: #22223b;
+  font-size: 40px;
+  font-weight: 900;
+}
+.Button {
+  border: 1px solid #22223b48;
+  background-color: #22223b;
+  padding: 7px;
+  color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.Button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #fdfcfc;
+  background-color: #22223b94;
+  padding: 7px;
+  color: #f2f2f2;
+}

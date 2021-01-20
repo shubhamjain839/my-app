@@ -1,0 +1,20 @@
+.Spinner {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: 3px solid #d3d3d3;
+  border-top-color: #22223b;
+  animation: spinner 0.7s linear infinite;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

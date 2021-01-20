@@ -1,0 +1,9 @@
+.Graphics img {
+  width: 80%;
+}
+.Graphics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 20px;
+}

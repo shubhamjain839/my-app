@@ -1,0 +1,34 @@
+.Brand {
+  height: 35px;
+  width: 40px;
+}
+.Brand:hover {
+  transition: all 0.2s ease-in-out;
+  height: 36px;
+  width: 41px;
+}
+.NavbarLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavbarLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Navbar {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 5% 45% 50%;
+  background-color: #22223b;
+  padding: 0 2.5%;
+}
+.NavbarLinksRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

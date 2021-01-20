@@ -1,0 +1,14 @@
+.Alert {
+  padding: 5px 20px;
+  width: 80%;
+  margin-top: 50px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.Danger {
+  background-color: #ff0000;
+}
+.Success {
+  background-color: #63cc63;
+}

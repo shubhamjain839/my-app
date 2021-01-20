@@ -1,0 +1,86 @@
+.ResourceView {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.ResourceViewDiv {
+  margin: 40px;
+  border: #22223b3b solid 1px;
+}
+.BackButton {
+  margin: 10px;
+  padding: 20px 30px;
+}
+.Alert {
+  margin: 0 10px;
+  margin-bottom: 40px;
+  padding: 0 30px;
+}
+
+.BackButton > a {
+  background-color: rgb(56, 202, 93);
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.BackButton > a:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  color: rgb(56, 202, 93);
+  background-color: #ffffff;
+  border: 1px solid rgb(56, 202, 93);
+}
+.ResourceViewDiv {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ebebeb;
+  background-color: #fafafa;
+}
+.Image {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+.FirstName {
+  text-transform: capitalize;
+  color: #22223b;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+}
+.LastName {
+  margin: 0;
+  color: #22223bb6;
+  font-size: 30px;
+  font-weight: 900;
+}
+.Email {
+  margin: 20;
+  color: #9a8c98;
+  font-size: 20px;
+  font-weight: 900;
+}
+.BtnDelete {
+  margin: 20px 50px;
+  background-color: rgb(255, 56, 56);
+  color: #ffffff;
+  width: 60px;
+  padding: 10px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.BtnDelete:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  color: rgb(255, 56, 56);
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 56, 56);
+}

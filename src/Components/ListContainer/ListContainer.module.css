@@ -1,0 +1,10 @@
+.ListContainer {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 50px auto;
+  padding: 100px 10px;
+  display: grid;
+  background-color: #ffffff;
+  border-radius: 5px;
+  grid-template-columns: auto auto auto;
+}

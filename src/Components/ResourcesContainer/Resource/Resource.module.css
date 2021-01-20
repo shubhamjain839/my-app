@@ -1,0 +1,55 @@
+.Resource {
+  margin: 5px;
+  padding: 25px;
+  border: 1px solid #22223b5e;
+  border-radius: 5px;
+  background-color: #fafafa;
+  box-shadow: 2px 2px #ebebeb;
+}
+.Resource:hover {
+  transition: all 0.2s ease-in;
+  margin: 5px;
+  padding: 26px;
+  border: 1px solid #f2e9e4;
+  border-radius: 5px;
+  background-color: #f2e9e4;
+}
+.ResourceHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ResourceHeader > div {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.ResourceHeaderH1 {
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #22223bcb;
+}
+
+.ResourceHeaderH1:hover {
+  cursor: pointer;
+  color: #22223b;
+}
+
+.ResourceHeaderH2 {
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #4a4e69;
+}
+.ResourceHeaderH3 {
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}

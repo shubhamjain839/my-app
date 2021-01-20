@@ -1,0 +1,23 @@
+.NavLinksBtn {
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #22223b;
+  outline: none;
+  width: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 16px;
+}
+
+.NavLinksBtn:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #fdfcfc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #22223b;
+  padding: 7px 0;
+  color: #f2f2f2;
+}
