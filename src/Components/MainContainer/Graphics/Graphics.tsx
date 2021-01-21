@@ -8,7 +8,7 @@ type GraphicsProps = {
 const Graphics = ({ logo }: GraphicsProps) => {
   return (
     <div className={styles.Graphics}>
-      <img src={`/Assets/svg/${logo}.svg`} alt='logo' />
+      <img src={`Assets/svg/${logo}.svg`} alt='logo' />
     </div>
   )
 }

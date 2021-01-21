@@ -4,11 +4,13 @@ import Alert from '../../../Alert/Alert'
 import InputField from '../InputField/InputField'
 import styles from './InputFormUpdate.module.css'
 
-type InputFormUpdateProps = {
+interface InputFormUpdateProps {
   title: string
 }
 
-const InputFormUpdate = ({ title }: InputFormUpdateProps) => {
+const InputFormUpdate: React.FC<{ title: string }> = ({
+  title,
+}: InputFormUpdateProps) => {
   const [formState, setFormState] = useState({
     name: '',
     job: '',

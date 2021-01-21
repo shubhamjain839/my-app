@@ -7,7 +7,7 @@ const Navbar = (props: any) => {
     <div className={styles.Navbar}>
       <div className={styles.NavbarLogo}>
         <Link to='/'>
-          <img className={styles.Brand} src='./Assets/brand.png' alt='logo' />
+          <img className={styles.Brand} src='Assets/brand.png' alt='logo' />
         </Link>
       </div>
       <div className={styles.NavbarLinksRight}>
