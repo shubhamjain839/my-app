@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import MainContentArea from './MainContentArea/MainContentArea'
 const Routes: React.FC = () => {
   return (
-    <BrowserRouter basename='https://shubhamjain839.github.io/assigment3/'>
+    <BrowserRouter>
       <Navbar />
       <MainContentArea />
     </BrowserRouter>
