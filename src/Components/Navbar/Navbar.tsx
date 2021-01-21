@@ -7,7 +7,11 @@ const Navbar: React.FC = () => {
     <div className={styles.Navbar}>
       <div className={styles.NavbarLogo}>
         <Link to='/'>
-          <img className={styles.Brand} src='/Assets/brand.png' alt='logo' />
+          <img
+            className={styles.Brand}
+            src={`${process.env.PUBLIC_URL}/Assets/brand.png`}
+            alt='logo'
+          />
         </Link>
       </div>
       <div className={styles.NavbarLinksRight}>

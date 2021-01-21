@@ -8,7 +8,10 @@ interface GraphicsProps {
 const Graphics: React.FC<GraphicsProps> = ({ logo }) => {
   return (
     <div className={styles.Graphics}>
-      <img src={`/Assets/svg/${logo}.svg`} alt='logo' />
+      <img
+        src={`${process.env.PUBLIC_URL}/Assets/svg/${logo}.svg`}
+        alt='logo'
+      />
     </div>
   )
 }
