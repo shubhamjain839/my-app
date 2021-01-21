@@ -4,7 +4,7 @@ import ListItem from './ListItem/ListItem'
 import axios from 'axios'
 import Spinner from '../Spinner/Spinner'
 
-const ListContainer = () => {
+const ListContainer: React.FC = () => {
   const [listState, setListState] = useState({
     list: {
       data: [],

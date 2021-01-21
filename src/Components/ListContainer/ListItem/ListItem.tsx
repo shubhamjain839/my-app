@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './ListItem.module.css'
-type ListItemProps = {
+interface ListItemProps {
   listItem: any
 }
-const ListItem = ({ listItem }: ListItemProps) => {
+const ListItem: React.FC<ListItemProps> = ({ listItem }) => {
   return (
     <div className={styles.ListItem}>
       <div className={styles.ListItemImg}>

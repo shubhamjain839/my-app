@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Graphics.module.css'
 
-type GraphicsProps = {
+interface GraphicsProps {
   logo: string
 }
 
-const Graphics = ({ logo }: GraphicsProps) => {
+const Graphics: React.FC<GraphicsProps> = ({ logo }) => {
   return (
     <div className={styles.Graphics}>
-      <img src={`Assets/svg/${logo}.svg`} alt='logo' />
+      <img src={`/Assets/svg/${logo}.svg`} alt='logo' />
     </div>
   )
 }

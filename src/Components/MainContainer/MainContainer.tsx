@@ -7,13 +7,17 @@ import InputFormLogin from './InputForm/InputFormLogin/InputFormLogin'
 import InputFormCreate from './InputForm/InputFormCreate/InputFormCreate'
 import InputFormUpdate from './InputForm/InputFormUpdate/InputFormUpdate'
 
-type MainContainerProps = {
+interface MainContainerProps {
   graphic: string
   title: string
   inputForm: string
 }
 
-const MainContainer = ({ graphic, title, inputForm }: MainContainerProps) => {
+const MainContainer: React.FC<MainContainerProps> = ({
+  graphic,
+  title,
+  inputForm,
+}) => {
   let form = <InputFormRegister title={title} />
   if (inputForm === 'login') {
     form = <InputFormLogin title={title} />

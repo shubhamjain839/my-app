@@ -6,7 +6,7 @@ import ResourcesContainer from '../../Components/ResourcesContainer/ResourcesCon
 import ListItemView from '../../Components/ListContainer/ListItem/ListItemView/ListItemView'
 import ResourceView from '../../Components/ResourcesContainer/Resource/ResourceView/ResourceView'
 import styles from './MainContentArea.module.css'
-const MainContentArea = () => {
+const MainContentArea: React.FC = () => {
   return (
     <div className={styles.MainContentArea}>
       <Switch>

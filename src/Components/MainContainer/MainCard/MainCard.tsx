@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './MainCard.module.css'
 
-type MainCardProps = {
+interface MainCardProps {
   children: any
 }
 
-const MainCard = ({ children }: MainCardProps) => {
+const MainCard: React.FC<MainCardProps> = ({ children }) => {
   return <div className={styles.MainCard}>{children}</div>
 }
 

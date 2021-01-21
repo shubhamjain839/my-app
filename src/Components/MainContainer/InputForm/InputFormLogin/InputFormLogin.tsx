@@ -4,11 +4,11 @@ import Alert from '../../../Alert/Alert'
 import InputField from '../InputField/InputField'
 import styles from './InputFormLogin.module.css'
 
-type InputFormLoginProps = {
+interface InputFormLoginProps {
   title: string
 }
 
-const InputFormLogin = ({ title }: InputFormLoginProps) => {
+const InputFormLogin: React.FC<InputFormLoginProps> = ({ title }) => {
   const [formState, setFormState] = useState({
     email: '',
     pwd: '',

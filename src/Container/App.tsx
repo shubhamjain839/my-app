@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './App.module.css'
 import Routes from '../Routes/Routes'
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className={styles.App}>
       <Routes />

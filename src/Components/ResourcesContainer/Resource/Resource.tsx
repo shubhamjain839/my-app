@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Resource.module.css'
 
-type ResourceProps = {
+interface ResourceProps {
   resourceItem: any
 }
 
-const Resource = ({ resourceItem }: ResourceProps) => {
+const Resource: React.FC<ResourceProps> = ({ resourceItem }) => {
   return (
     <div className={styles.Resource}>
       <div className={styles.ResourceHeader}>

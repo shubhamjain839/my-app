@@ -4,11 +4,11 @@ import Alert from '../../../Alert/Alert'
 import InputField from '../InputField/InputField'
 import styles from './InputFormCreate.module.css'
 
-type InputFormCreateProps = {
+interface InputFormCreateProps {
   title: string
 }
 
-const InputFormCreate = ({ title }: InputFormCreateProps) => {
+const InputFormCreate: React.FC<InputFormCreateProps> = ({ title }) => {
   const [formState, setFormState] = useState({
     name: '',
     job: '',

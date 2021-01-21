@@ -4,7 +4,7 @@ import Spinner from '../Spinner/Spinner'
 import Resource from './Resource/Resource'
 import styles from './ResourcesContainer.module.css'
 
-const ResourcesContainer = () => {
+const ResourcesContainer: React.FC = () => {
   const [resourceState, setResourceState] = useState({
     resource: {
       data: [],

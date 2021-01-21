@@ -8,9 +8,7 @@ interface InputFormUpdateProps {
   title: string
 }
 
-const InputFormUpdate: React.FC<{ title: string }> = ({
-  title,
-}: InputFormUpdateProps) => {
+const InputFormUpdate: React.FC<InputFormUpdateProps> = ({ title }) => {
   const [formState, setFormState] = useState({
     name: '',
     job: '',

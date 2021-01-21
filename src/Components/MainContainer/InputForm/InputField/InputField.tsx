@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './InputField.module.css'
 
-type InputFieldProps = {
+interface InputFieldProps {
   type: string
   placholder: string
   name: string
@@ -10,13 +10,13 @@ type InputFieldProps = {
   changed: any
 }
 
-const InputField = ({
+const InputField: React.FC<InputFieldProps> = ({
   type,
   placholder,
   name,
   value,
   changed,
-}: InputFieldProps) => {
+}) => {
   return (
     <div className={styles.InputField}>
       <input

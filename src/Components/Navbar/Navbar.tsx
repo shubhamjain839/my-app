@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
 import NavLinks from './NavLinks/NavLinks'
-const Navbar = (props: any) => {
+const Navbar: React.FC = () => {
   return (
     <div className={styles.Navbar}>
       <div className={styles.NavbarLogo}>
         <Link to='/'>
-          <img className={styles.Brand} src='Assets/brand.png' alt='logo' />
+          <img className={styles.Brand} src='/Assets/brand.png' alt='logo' />
         </Link>
       </div>
       <div className={styles.NavbarLinksRight}>

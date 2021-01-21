@@ -1,12 +1,15 @@
 import React from 'react'
 import styles from './Alert.module.css'
 
-type AlertProps = {
+interface AlertProps {
   title: string
   type: string
 }
 
-const Alert = ({ title, type }: AlertProps) => {
+const Alert: React.FC<{ title: string; type: string }> = ({
+  title,
+  type,
+}: AlertProps) => {
   return (
     <div className={`${styles.Alert} ${styles[type]}`}>
       <p>{title}</p>

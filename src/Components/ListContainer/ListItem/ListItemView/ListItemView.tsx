@@ -5,7 +5,7 @@ import Alert from '../../../Alert/Alert'
 import Spinner from '../../../Spinner/Spinner'
 import styles from './ListItemView.module.css'
 
-const ListItemView = (props: any) => {
+const ListItemView: React.FC<{ props: any }> = (props: any) => {
   const [listItemViewState, setlistItemViewState] = useState({
     first_name: '',
     last_name: '',

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Spinner from '../../../Spinner/Spinner'
 import styles from './ResourceView.module.css'
 
-const ResourceView = (props: any) => {
+const ResourceView: React.FC<{ props: any }> = (props) => {
   const [ResourceViewState, setResourceViewState] = useState({
     name: '',
     year: '',

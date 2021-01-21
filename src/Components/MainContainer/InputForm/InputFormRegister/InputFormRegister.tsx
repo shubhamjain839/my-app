@@ -4,11 +4,11 @@ import Alert from '../../../Alert/Alert'
 import InputField from '../InputField/InputField'
 import styles from './InputFormRegister.module.css'
 
-type InputFormRegisterProps = {
+interface InputFormRegisterProps {
   title: string
 }
 
-const InputFormRegister = ({ title }: InputFormRegisterProps) => {
+const InputFormRegister: React.FC<InputFormRegisterProps> = ({ title }) => {
   const [formState, setFormState] = useState({
     email: '',
     pwd: '',
