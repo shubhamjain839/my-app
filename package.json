@@ -30,7 +30,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://shubhamjain839.github.io/assignment3" ,
   "browserslist": {
     "production": [
       ">0.2%",
